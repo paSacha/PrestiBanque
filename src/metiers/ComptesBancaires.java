@@ -2,10 +2,12 @@ package metiers;
 
 public class ComptesBancaires {
 
+	// Attributs
 	private String nomProprio;
 	private String decouvert;
 	private String tauxRem;
 
+	// Constructeur
 	public ComptesBancaires(String nomProprio, String decouvert, String tauxRem) {
 		this.nomProprio = Personnes.getNom();
 		this.decouvert = decouvert;
