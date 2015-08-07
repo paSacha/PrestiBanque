@@ -1,6 +1,8 @@
 package metiers;
 
-public class ComptesBancaires {
+import Services.GestionComptes;
+
+public class ComptesBancaires implements GestionComptes{
 
 	// Attributs
 	private String nomProprio;
@@ -37,6 +39,18 @@ public class ComptesBancaires {
 
 	public void setTauxRem(String tauxRem) {
 		this.tauxRem = tauxRem;
+	}
+
+	@Override
+	public double virement() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public boolean auditComptes() {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 }

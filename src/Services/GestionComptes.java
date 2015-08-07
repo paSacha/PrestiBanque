@@ -1,5 +1,7 @@
 package Services;
 
-public class GestionComptes {
+public interface GestionComptes {
 
+	public double virement();
+	public boolean auditComptes();
 }
